@@ -1,0 +1,18 @@
+[package]
+name = "biblapp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.31.1"
+
+[package.metadata.bundle]
+name = "Bible App"
+identifier = "com.github.Divhanthelion/Bible-App"
+icon = ["icon.png"]
+resources = ["/Users/rootuser/Desktop/biblapp/new_testament", "/Users/rootuser/Desktop/biblapp/old_testament", "/Users/rootuser/Desktop/biblapp/icon.png"]
+short_description = "Project Gutenberg KJV"
+long_description = """
+Displays each the bible one chapter at a time. 
+Featuring a blazing fast search feature which doubles as a word count.
+"""
